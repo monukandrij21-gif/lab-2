@@ -1,30 +1,38 @@
-print ("Hello World")
-counter = 1
-point = 1,2
-status = "all"
-title = 'poor'
-is_valid = False
-list = [1, 2, 3, 4, 5]
-tuple = (1, 2, 3, 4, 5)
-print(list)
-print(tuple)
-dict = {5 : '1' , 10 : '2'}
-print(dict)
-set = {1, 2, 3, 4, 5}
-print(set)
-print(type(counter))
-print(type(point))
-print(type(is_valid))
-print(type(list))
-print(type(tuple))
-print(type(dict))
-print(type(set))
-first_num = 5
-second_num = 3
-print(first_num + second_num)
-print(first_num - second_num)
-print(first_num * second_num)
-print(first_num / second_num)
-print(first_num // second_num)
-print(first_num % second_num)
-print(first_num ** second_num)
+print("Hello, World!")
+name = "Андрій"          # str
+age = 16                 # int
+height = 1.83            # float
+is_student = True        # bool
+nothing = None           # NoneType
+numbers = [1, 2, 3]      # list
+person = {"name": "Андрій", "age": 16}  # dict
+coordinates = (10, 20)   # tuple
+unique = {1, 2, 3}       # set
+print(name, type(name))
+print(age, type(age))
+print(height, type(height))
+print(is_student, type(is_student))
+print(nothing, type(nothing))
+print(numbers, type(numbers))
+print(person, type(person))
+print(coordinates, type(coordinates))
+print(unique, type(unique))
+a = 10
+b = 3
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a // b)
+print(a % b)
+print(a ** b)
+
+print(a > b)
+print(a < b)
+print(a == b)
+print(a != b)
+
+print(a > 5 and b > 1)
+print(a > 20 or b > 1)
+print(not a > 20)
